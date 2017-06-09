@@ -1,0 +1,72 @@
+/*Sera ultilizado em todas as tags */
+li{
+	display:inline-block;
+	width: 100px;
+}
+
+/* Class pode ser ultilizado em mais de uma tag */
+.link{
+	color: red;
+	text-decoration: none;
+}
+.link:hover{
+	text-decoration: underline;
+}
+
+/* Id só pode ser ultilizado em apenas uma tag */
+#facebook{
+	color: blue;
+	text-decoration: none;
+}
+#facebook:hover{
+	text-decoration: underline;
+}
+
+body{
+	text-align: center;
+	font-family: Arial;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-image: url(images/Captain-America.png);
+}
+
+h1{
+	text-shadow:1px 1px white;
+}
+
+ul{
+	list-style: none;
+	padding:0;
+}
+
+label{
+	display: block;
+	margin: auto;
+	padding:2px;
+}
+
+input{
+	display: auto;
+}
+
+input[type=submit]{
+	background: white;
+	cursor: pointer;
+	padding:5px 15px;
+	border: 0;
+}
+
+input[type=submit]:hover{
+	background: black;
+	color: white;
+}
+
+#cadastro{
+	font-size: 17px;
+	font-family: arial;
+	width: 300px;
+	height: 550px;
+	margin: auto;
+	background: orange;
+}
